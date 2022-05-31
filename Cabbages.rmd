@@ -46,6 +46,12 @@ The median for c39 is about 50 which has a higher median then c52 which has a me
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The median amount for c39 is 51 where are the median for c52 is at 64.5. c52 is seen to have a higher amount of VitC by averaging 13.5 more points in the median statement. It can also be seen that the c52 min is 6 points higher than c39.
+
 ## Inferential Results
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
