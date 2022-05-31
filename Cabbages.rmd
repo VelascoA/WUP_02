@@ -35,6 +35,13 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+plot(VitC~Cult,data=veggy)
+```
+
+The median for c39 is about 50 which has a higher median then c52 which has a median around 70. The difference in median between c39 and c52 can be seen by the two boxes being so far apart that they would not cross each other if they were to merge together. 
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
